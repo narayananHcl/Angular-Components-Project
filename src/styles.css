@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+/* @import '~bootstrap/dist/css/bootstrap.min.css'; */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+.panel {
+    border-radius: 0;
+    margin-top: 5px;
+}
+
+.panel-default {
+    border-radius: 0;
+    border: 1px solid transparent;
+    border-color: #ddd;
+}
+
+.form-box{
+    background-color: #f9f9f9;
+    padding:2rem;
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.form-group{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.input-label{
+    color:black;
+    margin-bottom: 0.3rem;
+    display: block;
+    font-weight: bold;
+}
+
+.input-wrap.text-input{
+    width: 100%;
+    border: 1px solid black;
+}
+.SectionStyle{
+    padding-top: 20px;
+    overflow-y: scroll;
+}
+mat-slider{
+    width: 90%;
+}
